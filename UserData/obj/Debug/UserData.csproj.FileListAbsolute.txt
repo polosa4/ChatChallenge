@@ -1,0 +1,10 @@
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\UserData.dll.config
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\UserData.dll
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\UserData.pdb
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\EntityFramework.dll
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\EntityFramework.xml
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\obj\Debug\UserData.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\obj\Debug\UserData.dll
+C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserData\obj\Debug\UserData.pdb
