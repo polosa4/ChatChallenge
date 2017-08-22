@@ -8,3 +8,13 @@ C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserDataAccess
 C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserDataAccess\obj\Debug\UserDataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserDataAccess\obj\Debug\UserDataAccess.dll
 C:\Users\Oleg\documents\visual studio 2017\Projects\ChatChallenge\UserDataAccess\obj\Debug\UserDataAccess.pdb
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\UserDataAccess.dll.config
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\UserDataAccess.dll
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\UserDataAccess.pdb
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\obj\Debug\UserDataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\obj\Debug\UserDataAccess.dll
+C:\Users\Oleg\Documents\GitHub\ChatApi\UserDataAccess\obj\Debug\UserDataAccess.pdb

@@ -51,51 +51,49 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs">
-      <DependentUpon>UserDataModel.tt</DependentUpon>
+      <DependentUpon>UserData.tt</DependentUpon>
     </Compile>
-    <Compile Include="UserDataModel.Context.cs">
+    <Compile Include="UserData.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserDataModel.Context.tt</DependentUpon>
+      <DependentUpon>UserData.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="UserDataModel.cs">
+    <Compile Include="UserData.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserDataModel.tt</DependentUpon>
+      <DependentUpon>UserData.tt</DependentUpon>
     </Compile>
-    <Compile Include="UserDataModel.Designer.cs">
+    <Compile Include="UserData.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UserDataModel.edmx</DependentUpon>
+      <DependentUpon>UserData.edmx</DependentUpon>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EntityDeploy Include="UserDataModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>UserDataModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
     <None Include="packages.config" />
-    <None Include="UserDataModel.edmx.diagram">
-      <DependentUpon>UserDataModel.edmx</DependentUpon>
+    <EntityDeploy Include="UserData.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>UserData.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="UserData.edmx.diagram">
+      <DependentUpon>UserData.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="UserDataModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>UserDataModel.Context.cs</LastGenOutput>
-      <DependentUpon>UserDataModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="UserDataModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>UserDataModel.edmx</DependentUpon>
-      <LastGenOutput>UserDataModel.cs</LastGenOutput>
-    </Content>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Content Include="UserData.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UserData.edmx</DependentUpon>
+      <LastGenOutput>UserData.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="UserData.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>UserData.edmx</DependentUpon>
+      <LastGenOutput>UserData.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

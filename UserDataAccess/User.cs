@@ -17,6 +17,6 @@ namespace UserDataAccess
         public int Id { get; set; }
         public string Username { get; set; }
         public string Message { get; set; }
-        public System.DateTime DateCreated { get; set; }
+        public Nullable<System.DateTime> DateCreated { get; set; }
     }
 }

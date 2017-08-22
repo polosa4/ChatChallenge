@@ -5,11 +5,12 @@
       <PropertyRef Name="Id" />
       <PropertyRef Name="Username" />
       <PropertyRef Name="DateCreated" />
+      <PropertyRef Name="Message" />
     </Key>
     <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
-    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
-    <Property Name="DateCreated" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Message" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DateCreated" Type="DateTime" Precision="3" Nullable="false" ConcurrencyMode="None" annotation:StoreGeneratedPattern="None" />
   </EntityType>
   <EntityContainer Name="UserDataEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Users" EntityType="Self.User" />
